@@ -1,0 +1,26 @@
+GET /api
+GET /api/guests {count: x}
+GET /api/guests?s={term}
+GET /api/guests/{id}
+POST /api/guest
+PUT /api/guest/{id}
+
+POST /api/transaction
+
+Header
+Authorization: Basic <password>
+
+{
+  id: "",
+  firstName: "",
+  lastName: "",
+  emailAddress: "",
+  address: "",
+  phoneNumber: "",
+  transaction: {
+    transactionId: int,
+    processorTransactionId: "",
+    transactionDate: "",
+    transactionResult: ""
+  }
+}

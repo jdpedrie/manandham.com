@@ -1,0 +1,149 @@
+BODY {
+  background: #1c1c1c;
+  color: #EFEFEF;
+  margin: auto;
+  font-size:18px;
+  font-family: "adobe-caslon-pro", serif;
+  letter-spacing:1px;
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: #EFEFEF;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "adobe-caslon-pro", serif;
+  font-weight: 400;
+  margin: 0.3em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto 1em auto;
+}
+
+form p {
+  margin: auto;
+}
+
+.disclaimers {
+  margin: 1em auto;
+}
+
+.container {
+  margin: auto;
+  margin-top:50px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+.crest {
+  height:300px;
+}
+
+.heading {
+  width:500px;
+  max-width:100%;
+  margin:1em 0;
+}
+
+.countdown {
+  margin: 1.4em auto;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  width: 300px;
+  height: 1.1em;
+  background: #444;
+  border: 0;
+  padding: 10px;
+  color: #EFEFEF;
+  font-size: 0.8em;
+  margin: 10px;
+}
+
+button {
+  font-size: 0.75em;
+  background: #444;
+  border: 0;
+  color: #BBB;
+  padding: 10px;
+  margin: 10px;
+}
+
+::-webkit-input-placeholder {
+  text-transform: lowercase;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  text-transform: lowercase;
+}
+:-ms-input-placeholder {
+  text-transform: lowercase;
+}
+:-moz-placeholder {
+  text-transform: lowercase;
+}
+
+.middle {
+  margin-top:150px;
+}
+
+.number-group {
+  margin:10px;
+}
+
+.number {
+  font-size: 2em;
+  font-family: "dejarip", sans-serif;
+  font-weight: 700;
+}
+
+.number-type {
+  color: #7D7D7D;
+  font-family: "adobe-caslon-pro", serif;
+  font-size: 1.3em;
+}
+
+.half {
+  display:inline-block;
+}
+
+.half input {
+  width:203px;
+}
+
+.tiny {
+  font-size:0.6em;
+  margin-top:20px;
+}
+
+.paymentErrors {
+  font-weight: bold;
+  display:none;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .full input {
+    width:203px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) {
+  .full input {
+    width: 450px;
+  }
+}
